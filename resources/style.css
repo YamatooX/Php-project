@@ -1,0 +1,59 @@
+body{
+    font-size: large;
+    color: #ffffff;
+}
+
+html{
+    background-image: url("../images/background.jpg");
+    background-size: cover;
+}
+
+#plot{
+    background-color: rgb(75, 75, 75, 0.7);
+    margin: 1vh;
+    padding: 1vh;
+    text-align: center;
+    height: 18vh;
+}
+
+ul{
+    list-style: none;
+    text-align: left;
+}
+
+li{
+    border-color: rgb(111, 11, 1);
+    border-style: ridge;
+    text-align: center;
+    block-size: auto;
+}
+
+footer{
+    margin: 1vh;
+    padding: 1vh;
+    background-color: rgb(75, 75, 75, 0.7);
+    text-decoration: none;
+    height: 35vh;
+    text-align: center;
+}
+
+#breakline{
+    height: 26vh;
+}
+
+a{
+    text-decoration: none;
+    display: block;
+}
+
+a:hover{
+    background-color: rgba(176, 0, 0, 0.3);
+}
+
+a{
+    color: white;
+}
+
+a:visited{
+    color: white;
+}

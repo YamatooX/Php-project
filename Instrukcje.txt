@@ -1,0 +1,6 @@
+Instrukcje;
+
+1. Z każdym przejściem z pokoju do pokoju stracisz 1 pkt zdrowia psychicznego
+2. Czytaj fabułę. W niej są zawarte eventy dot przedmiotów, które pomogą Ci się wydostać.
+   Lub eventów, które zabiorą Ci więcej niż 1 pkt zdrowia.
+3. Powodzenia
