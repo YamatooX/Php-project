@@ -7,17 +7,15 @@ session_start();
 setHp();
 
     $id = htmlspecialchars($_GET['id']);
-    $_SESSION["id"] = $id;
-//   To nie działa => $_SESSION["Koc"] = Koc($id); <= jak ogarnąć zboranie itemów?
-// ######### Event "Listeners" #########
 
         YouDied($id);
+        Blanket($id);
+        EntryKey($id);
         Ghost($id);
-
+        Taras($id);
         Hospital($id);
         EntryDoor($id);
 
-// #######################################
     $connections = selectConnectionsFromDataBase($id);
     $plot = selectPlotFromDataBase($id);
 
